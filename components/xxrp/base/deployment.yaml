@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: xxrp
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-qcwl-tenant/byoc-app-cutn/xxrp@sha256:2b61ffee33c1aa6f482629087fee884fe5918ed51b082125a04a5e95ecfb91ef
         name: my-java-quarkus
         ports:
         - containerPort: 8081
